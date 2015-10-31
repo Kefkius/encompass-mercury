@@ -63,3 +63,9 @@ coind_user = dogedrpcuser
 coind_password = rpcpassword
 coind_host = localhost
 coind_port = 107337
+
+[ok]
+coind_user = okrpcuser
+coind_password = rpcpassword
+coind_host = localhost
+coind_port = 6969
