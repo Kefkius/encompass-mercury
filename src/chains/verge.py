@@ -6,8 +6,8 @@ class Currency(cryptocur.CryptoCur):
     p2sh_version = 33
     genesis_hash = '00000fc63692467faeb20cdb3b53200dc601d75bdfa1001463304cc790d77278'
 
-    coin_name = 'DogecoinDark'
-    code = 'DOGED'
+    coin_name = 'Verge'
+    code = 'XVG'
 
     @chainhook
     def transaction_parse_fields(self, vds, is_coinbase, fields):
@@ -15,4 +15,4 @@ class Currency(cryptocur.CryptoCur):
         fields.insert(1, timestamp)
     
     irc_nick_prefix = 'EL_'
-    irc_channel = '#electrum-doged'
+    irc_channel = '#electrum-xvg'

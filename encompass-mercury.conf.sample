@@ -58,8 +58,8 @@ coind_password = pkbrpcpassword
 coind_host = localhost
 coind_port = 59060
 
-[doged]
-coind_user = dogedrpcuser
-coind_password = rpcpassword
+[verge]
+coind_user = verge
+coind_password = vergerpcpassword
 coind_host = localhost
-coind_port = 107337
+coind_port = 20102
