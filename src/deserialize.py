@@ -278,7 +278,7 @@ def parse_Transaction(vds, is_coinbase):
     start = vds.read_cursor
 
     fields = [('version', vds.read_int32, True),    # version
-            ('nTime', vds.read_compact_size, True), # nTime
+            ('nTime', vds.read_int32, True), # nTime
             ('vin', vds.read_compact_size, False),  # vin
             ('inputs', 'parse_inputs', True),       # inputs
             ('vout', vds.read_compact_size, False), # vout
